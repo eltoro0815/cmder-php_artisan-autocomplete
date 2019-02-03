@@ -51,10 +51,10 @@ artisan_command_parser:set_arguments({
 						artisan_basic_options
 						),
 	"event:generate" .. flags(artisan_basic_options),
-    "ide-helper:eloquent" .. flags(artisan_basic_options),
-    "ide-helper:generate" .. flags(artisan_basic_options),
-    "ide-helper:meta" .. flags(artisan_basic_options),
-    "ide-helper:models" .. flags(artisan_basic_options),
+        "ide-helper:eloquent" .. flags(artisan_basic_options),
+        "ide-helper:generate" .. flags(artisan_basic_options),
+        "ide-helper:meta" .. flags(artisan_basic_options),
+        "ide-helper:models" .. flags(artisan_basic_options),
 	"key:generate" .. flags(
 						"--show",
 						artisan_basic_options
